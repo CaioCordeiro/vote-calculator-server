@@ -52,10 +52,10 @@ def calculate_result():
 def get_result():
     return json.dumps({"result": calculate_result()})
 
-def test_calculate_result():
-    users["bob"] = ["lol", "tdd", "sus"]
-    users["caio"] = ["tdd", "cafe", "vue"]
-    users["mike"] = ["vue", "lol", "cafe"]
-    print(calculate_result())
+# def test_calculate_result():
+#     users["bob"] = ["lol", "tdd", "sus"]
+#     users["caio"] = ["tdd", "cafe", "vue"]
+#     users["mike"] = ["vue", "lol", "cafe"]
+#     print(calculate_result())
 
-test_calculate_result()
+# test_calculate_result()
